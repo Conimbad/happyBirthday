@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./css/estilo.css" />
+    <title>Feliz cumpleaños Cecilia</title>
+  </head>
+  <body>
+    <!-- Button -->
+    <div class="contariner">
+      <div class="center">
+        <button id="boton" class="">Click me</button>
+      </div>
+    </div>
+    <!-- Toast1 -->
+    <div
+      id="toast1"
+      class="
+        toast
+        fs-3
+        text-center
+        align-items-center
+        text-white
+        bg-danger
+        border-0
+        position-absolute
+        top-0
+        start-50
+        translate-middle-x
+      "
+      data-bs-autohide="false"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body">
+          HOLA... <br />
+          ESTE ES SU REGALO,<br />
+          ESPERO LE GUSTE.
+        </div>
+        <button
+          type="button"
+          class="btn-close btn-close-white me-2 m-auto"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+    <!-- Toast2 -->
+    <div
+      id="toast2"
+      class="
+        fs-4
+        text-center
+        toast
+        align-items-center
+        bg-warning
+        border-0
+        position-absolute
+        top-0
+        end-0
+      "
+      data-bs-autohide="false"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body">
+          Parece que los días fluyen como agua en un río <br />
+          Parece que solo fue ayer cuando juntos pasabamos bellos momentos
+          <br />
+          Parece que... La vida pasa <br />
+          Y quiero ser parte de esa vida suya...
+        </div>
+        <button
+          type="button"
+          class="btn-close btn-close-white me-2 m-auto"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+    <!-- Toast3 -->
+    <div
+      id="toast3"
+      class="
+        fs-4
+        text-center
+        toast
+        align-items-center
+        text-white
+        bg-success
+        border-0
+        position-absolute
+        bottom-0
+        start-0
+      "
+      data-bs-autohide="false"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body">
+          Le deseo pues mujer y madre hermosa<br />
+          Pase un día muy feliz, al lado de su hermana, <br />
+          Sus sobrinos y la más preciada, su hija...
+        </div>
+        <button
+          type="button"
+          class="btn-close btn-close-white me-2 m-auto"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+    <!-- Toast4 -->
+    <div
+      id="toast4"
+      class="
+        fs-4
+        text-center
+        toast
+        align-items-center
+        text-white
+        bg-secondary
+        border-0
+        position-absolute
+        top-50
+        end-0
+        translate-middle-y
+      "
+      data-bs-autohide="false"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body">
+          Quiero desearle también<br />
+          Que como este pase muchos días más<br />
+          Feliz y contenta, disfrutando,<br />
+          De los buenos y mejores momentos...
+        </div>
+        <button
+          type="button"
+          class="btn-close btn-close-white me-2 m-auto"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+    <!-- Toast5 -->
+    <div
+      id="toast5"
+      class="
+        fs-4
+        text-center
+        toast
+        align-items-center
+        text-white
+        bg-dark
+        border-0
+        position-absolute
+        top-0
+        start-0
+      "
+      data-bs-autohide="false"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body">
+          Pido a Dios cada día que estén muy bien<br />
+          Sé que a veces vé las cosas muy difíciles<br />
+          Pero yo le digo siempre.<br />
+          Todo va a estar bien. Lo sé...
+        </div>
+        <button
+          type="button"
+          class="btn-close btn-close-white me-2 m-auto"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+    <!-- Toast6 -->
+    <div
+      id="toast6"
+      class="
+        fs-4
+        text-center
+        toast
+        align-items-center
+        bg-info
+        border-0
+        position-absolute
+        bottom-0
+        end-0
+      "
+      data-bs-autohide="false"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body">
+          Esta canción que escucha de fondo,<br />
+          No es al azar,<br />
+          Pues tiene un valor muy bonito para mi<br />
+          Y en esta canción expreso lo que siento por usted<br />
+          Por supuesto, por neustra hija también.<br />
+        </div>
+        <button
+          type="button"
+          class="btn-close btn-close-white me-2 m-auto"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+    <!-- Toast7 -->
+    <div
+      id="toast7"
+      class="
+        fs-4
+        text-center
+        toast
+        text-white
+        align-items-center
+        bg-primary
+        border-0
+        position-absolute
+        top-50
+        start-0
+        translate-middle-y
+      "
+      data-bs-autohide="false"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body">
+          Quiero decirle también,<br />
+          Que estamos en el mismo lugar...<br />
+          Por algo, porque...<br />
+          Tenemos que pasar una prueba grande.
+        </div>
+        <button
+          type="button"
+          class="btn-close btn-close-white me-2 m-auto"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+    <!-- Toast8 -->
+    <div
+      id="toast8"
+      class="
+        fs-4
+        text-center
+        toast
+        text-white
+        align-items-center
+        bg-danger
+        border-0
+        position-absolute
+        bottom-0
+        start-50
+        translate-middle-x
+      "
+      data-bs-autohide="false"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body">
+          Y quisiera pedirle en este su día<br />
+          Que me deje; a su lado,<br />
+          Superar esta prueba...
+        </div>
+        <button
+          type="button"
+          class="btn-close btn-close-white me-2 m-auto"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+    <!-- Toast9 -->
+    <div
+      id="toast9"
+      class="
+        fs-4
+        text-center
+        toast
+        align-items-center
+        bg-info
+        border-0
+        position-absolute
+        top-0
+        start-0
+      "
+      data-bs-autohide="false"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body">
+          Verá que al final de este tunel; <br />
+          Este tunel que a veces parece oscuro,<br />
+          Veremos la luz,<br />
+          Y como dijo su prima, seremos felices.
+        </div>
+        <button
+          type="button"
+          class="btn-close btn-close-white me-2 m-auto"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+    <!-- Toast10 -->
+    <div
+      id="toast10"
+      class="
+        fs-4
+        text-center text-white
+        toast
+        align-items-center
+        bg-success
+        border-0
+        position-absolute
+        top-50
+        end-0
+        translate-middle-y
+      "
+      data-bs-autohide="false"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body">
+          Seremos felices como las aves,<br />
+          Volaremos juntos por la vida,<br />
+          Pasaremos momentos inolvidables,<br />
+          Déjeme ser esos momenotos...
+        </div>
+        <button
+          type="button"
+          class="btn-close btn-close-white me-2 m-auto"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+    <!-- Toast11 -->
+    <div
+      id="toast11"
+      class="
+        fs-4
+        text-center text-white
+        toast
+        align-items-center
+        bg-dark
+        border-0
+        position-absolute
+        top-0
+        start-50
+        translate-middle-x
+      "
+      data-bs-autohide="false"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body">
+          Déjeme demostrarle que puedo...<br />
+          Que puedo hacerlas feliz,<br />
+          Que estaré con ustedes siempre,<br />
+          Que no las dejaré solas...
+        </div>
+        <button
+          type="button"
+          class="btn-close btn-close-white me-2 m-auto"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+    <!-- Toast12 -->
+    <div
+      id="toast12"
+      class="
+        fs-4
+        text-center
+        toast
+        align-items-center
+        bg-warning
+        border-0
+        position-absolute
+        top-50
+        start-0
+        translate-middle-y
+      "
+      data-bs-autohide="false"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body">
+          Por favor disfrute este día,<br />
+          Este es su primer cumpleaños con...<br />
+          La mejor personita del mundo,<br />
+          La nena Elizabeth que siempre le dará alegría...
+        </div>
+        <button
+          type="button"
+          class="btn-close btn-close-white me-2 m-auto"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+    <!-- Toast13 -->
+    <div
+      id="toast13"
+      class="
+        fs-4
+        text-center text-white
+        toast
+        align-items-center
+        bg-primary
+        border-0
+        position-absolute
+        bottom-0
+        start-50
+        translate-middle-x
+      "
+      data-bs-autohide="false"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body">
+          Con ella presente todos los días serán felices,<br />
+          Cada día será como un regalo<br />
+          Y cada segundo como un cumpleaños<br />
+        </div>
+        <button
+          type="button"
+          class="btn-close btn-close-white me-2 m-auto"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+    <!-- Toast14-->
+    <div
+      id="toast14"
+      class="
+        fs-4
+        text-center text-white
+        toast
+        align-items-center
+        bg-secondary
+        border-0
+        position-absolute
+        top-0
+        end-0
+      "
+      data-bs-autohide="false"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body">
+          Cada amanecer será especial <br />
+          Pues veremos el rostro más bello al despertar <br />
+          El rostro de un angel hermoso...
+        </div>
+        <button
+          type="button"
+          class="btn-close btn-close-white me-2 m-auto"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+    <!-- Toast15 -->
+    <div
+      id="toast15"
+      class="
+        fs-4
+        text-center text-white
+        toast
+        align-items-center
+        bg-danger
+        border-0
+        position-absolute
+        bottom-0
+        end-0
+      "
+      data-bs-autohide="false"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body">
+          Como quisiera estar con ustedes,<br />
+          Disfrutar juntos estos momentos,<br />
+          Pero sé que... Si usted me lo permite,<br />
+          Pronto será, y estaremos contentos...
+        </div>
+        <button
+          type="button"
+          class="btn-close btn-close-white me-2 m-auto"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+    <!-- Toast16 -->
+    <div
+      id="toast16"
+      class="
+        fs-4
+        text-center text-white
+        toast
+        align-items-center
+        bg-primary
+        border-0
+        position-absolute
+        top-50
+        start-0
+        translate-middle-y
+      "
+      data-bs-autohide="false"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body">
+          Espero pues tenga un excelente día <br />
+          Reitero mi sinceros deseos para usted <br />
+          Y mis felicitaciones también...
+        </div>
+        <button
+          type="button"
+          class="btn-close btn-close-white me-2 m-auto"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+    <!-- Toast17 -->
+    <div
+      id="toast17"
+      class="
+        fs-4
+        text-center text-white
+        toast
+        align-items-center
+        bg-danger
+        border-0
+        position-absolute
+        bottom-0
+        start-0
+      "
+      data-bs-autohide="false"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body">
+          Al compaz de esta melodía le digo,<br />
+          Que... Goce este día<br />
+          Que... Difrute este momento<br />
+          Que... Sepa que yo siempre por usted estoy contento...
+        </div>
+        <button
+          type="button"
+          class="btn-close btn-close-white me-2 m-auto"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+    <!-- Toast18-->
+    <div
+      id="toast18"
+      class="
+        fs-4
+        text-center
+        toast
+        align-items-center
+        bg-info
+        border-0
+        position-absolute
+        top-50
+        end-0
+        translate-middle-y
+      "
+      data-bs-autohide="false"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body">
+          Ya terminará la canción,<br />
+          Debo despedirme,<br />
+          Quiero que sepa que está en mi corazón,<br />
+          Y... No quiero irme.<br />
+          DIGO ENTONCES...
+        </div>
+        <button
+          type="button"
+          class="btn-close btn-close-white me-2 m-auto"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+    <!-- Toast19-->
+    <div
+      id="toast19"
+      class="
+        fs-1
+        text-center text-white
+        toast
+        align-items-center
+        bg-danger
+        border-0
+        position-absolute
+        top-50
+        start-50
+        translate-middle
+      "
+      data-bs-autohide="false"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body">FELIZ CUMPLEAÑOS CECILIA!!!</div>
+        <button
+          type="button"
+          class="btn-close btn-close-white me-2 m-auto"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+    </div>
+    <!----Audio-->
+    <audio id="cancion" src="./audio/Contigo.mp3" type="audio/mpeg"></audio>
+    <!-- jQuery -->
+    <script src="./js/jquery.min.js"></script>
+    <!-- Animaciones -->
+    <script src="./js/animacion.js"></script>
+    <!-- Confetti -->
+    <script src="./js/confetti.min.js"></script>
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

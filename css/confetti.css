@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+canvas {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.title {
+  position: absolute;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+
+  font-family: "Helvetica";
+  line-height: 100vh;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 10px #a3a1a8;
+  font-weight: lighter;
+  font-size: 70px;
+  color: #ff665a;
+  text-align: center;
+}
